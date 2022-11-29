@@ -1,4 +1,4 @@
-# ucl-emoodie
+# ucl-emoodie credits calculator
 
 This is a streamlit-based calculator used for calculating filled survey % in the UCL/eMoodie study. 
 
@@ -9,10 +9,10 @@ The calculator will then produce a table containing users as rows and columns as
 The total of surveys per day should be 6 per participant and the whole study period is 14 days. The calculator automatically checks how many days have passed based on the content of the dataframe and gives the total surveys filled score together with the percentage.
 
 The credits are attributed on the following basis:
-<20% - 0 credits
-20-49% - 1 credit
-50-70% - 2 credits
->70% - 3 credits
+- 0-20% - 0 credits
+- 20-49% - 1 credit
+- 50-70% - 2 credits
+- 70-100% - 3 credits
 
 Please also give the participants an additional credits for the following:
 1 credit for attending the sign up session
